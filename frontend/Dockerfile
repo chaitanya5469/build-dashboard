@@ -1,9 +1,11 @@
 FROM nginx:alpine
 
-# Remove default nginx site
-RUN rm /etc/nginx/conf.d/default.conf
-
-# Copy our HTML file
+# Copy HTML
 COPY index.html /usr/share/nginx/html/index.html
 
-EXPOSE 80
+# Ensure default site exists
+RUN printf 'server {\n\
+  listen 80;\n\
+  root /usr/share/nginx/html;\n\
+  index index.html;\n\
+}\n' > /etc/nginx/conf.d/default.conf
