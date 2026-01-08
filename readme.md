@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![Dashboard Banner](https://via.placeholder.com/1200x300/1a1a2e/16213e?text=Android+CI+Dashboard)
 
 ### **Fully Containerized Web Dashboard for Android CI/CD Observability**
 
@@ -124,10 +123,10 @@ This project emphasizes **infrastructure-as-code** and **containerization best p
 ## 🖼️ Screenshots
 
 ### 📊 Dashboard Overview
-![Dashboard Main View](https://github.com/chaitanya5469/build-dashboard/dash.png)
+![Dashboard Main View](https://github.com/chaitanya5469/build-dashboard/blob/main/dash.png)
 
 ### 🤖 AI Failure Analysis
-![AI Insights](https://github.com/chaitanya5469/build-dashboard/error.png)
+![AI Insights](https://github.com/chaitanya5469/build-dashboard/blob/main/error.png)
 
 
 ---
