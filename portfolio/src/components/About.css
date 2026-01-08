@@ -1,0 +1,60 @@
+.about {
+    background: linear-gradient(180deg, transparent 0%, var(--bg-secondary) 100%);
+}
+
+.section-header {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section-subtitle {
+    font-size: 1.125rem;
+    color: var(--text-muted);
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.about-card {
+    text-align: center;
+}
+
+.about-icon {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.about-highlight {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-bold);
+    margin-top: var(--spacing-sm);
+}
+
+.achievements-list {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.achievements-list li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-secondary);
+}
+
+.achievements-list li:last-child {
+    border-bottom: none;
+}
+
+.achievements-list strong {
+    color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+}
