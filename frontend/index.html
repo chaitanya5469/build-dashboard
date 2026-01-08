@@ -699,7 +699,10 @@
 
     <script>
         // Environment variable for server URL - defaults to localhost if not set
-        const SERVER_URL = window.ENV_SERVER_URL || 'http://api.chaitanyadev.in';
+       const SERVER_URL =
+  window.ENV_SERVER_URL ||
+  `${window.location.protocol}//api.chaitanyadev.in`;
+
 
         const buildsContainer = document.getElementById('builds');
         const statsContainer = document.getElementById('stats');
